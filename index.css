@@ -75,7 +75,9 @@ body {
     line-height: 41px;
 }
 
-.top_nav {}
+/* .top_nav svg {
+    display: none;
+} */
 
 .top_nav ul {
     list-style-type: none;
@@ -969,6 +971,9 @@ body {
 .logo span{
     font-size: 18px;
 }
+/* .top_nav svg {
+    display: none;
+} */
 .top_nav ul li a{
     font-size: 13px;
     margin-right: 20px;
@@ -1305,5 +1310,474 @@ body {
 }
 .menu_footer li a{
     font-size: 14px;
+}
+}
+
+@media (max-width: 767px) {
+.header{
+    width: 90%;
+    height: 100%;
+    margin: 15px auto 50px;
+}
+.logo{
+    display: flex;
+}
+.logo button{
+    font-size: 20px;
+}
+.logo span{
+    font-size: 20px;
+}
+.top_nav{
+    display: none;
+}
+/* .top_nav svg {
+    width: 50px;
+    height: 50px;
+    display: block;
+} */
+.header_background{
+    width: 110px;
+    height: 50px;
+}
+.header_banner{
+    display: block;
+}
+.header_text{
+    margin: 0;
+}
+.header_text h2{
+    font-size: 25px;
+    line-height: 30px;
+}
+.header_text p{
+    font-size: 18px;
+    line-height: 28px;
+}
+.consult_btn button{
+    width: 130px;
+    height: 50px;
+    font-size: 15px;
+    line-height: 50px;
+}
+.illustration{
+    height: 60%;
+    margin: 20px 0;
+}
+.our_services{
+    width: 90%;
+    height: 100%;
+}
+.our_services_text{
+    margin: 0 0 35px;
+}
+.our_services_text h3{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.our_services_text p{
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.our_services_services{
+    height: 100%;
+}
+.our_services_services_row{
+    display: block;
+    margin-top: 30px;
+}
+.search_doctor{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+.search_doctor img{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.search_doctor h5{
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+}
+.search_doctor p{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.online_pharmacy{
+    width: 100%;
+    height: 250px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+.online_pharmacy img{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.online_pharmacy h5{
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+}
+.online_pharmacy p{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.consultation{
+    width: 100%;
+    height: 250px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+.consultation img{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.consultation h5{
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+}
+.consultation p{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.our_services_services_row2{
+    display: block;
+    margin-top: 30px;
+}
+.detail_info{
+    width: 100%;
+    height: 250px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+.detail_info img{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.detail_info h5{
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+}
+.detail_info p{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.emergency_care{
+    width: 100%;
+    height: 250px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+.emergency_care img{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.emergency_care h5{
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+}
+.detemergency_care p{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.tracking{
+    width: 100%;
+    height: 250px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+.tracking img{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.tracking h5{
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+}
+.tracking p{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.our_services_btn div{
+    width: 130px;
+    height: 50px;
+}
+.our_services_btn button{
+    width: 130px;
+    height: 50px;
+    font-size: 15px;
+    line-height: 50px;
+}
+.leading_healthcare_providers{
+    width: 90%;
+    display: block;
+    height: 100%;
+    padding-top: 10%;
+}
+
+.leading_healthcare_providers_img {
+    height: 60%;
+    margin: 0;
+    padding: 10% 0;
+}
+.leading_healthcare_providers_img img{
+    width: 100%;
+    height: 100%;
+}
+.leading_healthcare_providers_text{
+    margin: 0;
+}
+.leading_healthcare_providers_text h3{
+    width: 100%;
+    font-size: 23px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.restang{
+    display: none;
+}
+.leading_healthcare_providers_text p{
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+}
+.leading_healthcare_providers_text_btn{
+    width: 130px;
+    height: 50px;
+    margin: 0 auto;
+}
+.leading_healthcare_providers_text_btn button{
+    width: 130px;
+    height: 50px;
+    font-size: 15px;
+    line-height: 50px;
+}
+.download_our_mobile_apps_background{
+    display: none;
+}
+.download_our_mobile_apps{
+    width: 90%;
+    display: block;
+}
+.download_our_mobile_apps_text{
+    padding: 15px 0;
+    margin: 0;
+}
+.download_our_mobile_apps_text h3{
+    width: 100%;
+    font-size: 23px;
+    line-height: 25px;
+    text-align: center;
+}
+.download_our_mobile_apps_text p{
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+}
+.download_our_mobile_apps_btn{
+    width: 130px;
+    height: 50px;
+    margin: 0 auto;
+}
+.download_our_mobile_apps_btn button{
+    width: 130px;
+    height: 50px;
+    font-size: 15px;
+    line-height: 50px;
+}
+.download_our_mobile_apps_img{
+    height: 60%;
+    margin: 0;
+    padding: 10% 0;
+}
+.download_our_mobile_apps_img img{
+    width: 100%;
+    height: 100%;
+}
+.testimonials{
+    width: 90%;
+    margin-bottom: 20px;
+    height: 100%;
+}
+.testimonials_groups{
+    padding-top: 15px;
+    height: 10%;
+}
+.testimonials_groups h4{
+    font-size: 16px;
+}
+.restangs{
+    display: none;
+}
+.testimonials_groups_groups{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 15px 0;
+}
+.testimonials_groups_groups_img{
+    width: 141px;
+    height: 141px;
+    margin: 0 auto 20px;
+}
+.testimonials_groups_groups_text{
+    margin: 0;
+}
+.testimonials_groups_groups_text h6{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 18px;
+}
+.testimonials_groups_groups_text p{
+    width: 130px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
+    height: 100%;
+    font-size: 16px;
+}
+.testimonials_groups_groups_texts{
+    width: 210px;
+    margin: 0 auto;
+    font-size: 14px;
+    text-align: center;
+}
+.arrow_nav_1{
+    margin-right: 30px;
+}
+.arrow_nav_2{
+    margin-right: 10px;
+}
+.arrow_nav_3{
+    margin-right: 30px;
+}
+.our_lates_article{
+    width: 90%;
+    padding: 10px 0;
+}
+.our_lates_article_text{
+    width: 100%;
+    margin: 0 0 15px;
+}
+.our_lates_article_text h3{
+    height: 100%;
+    font-size: 24px;
+}
+.restanges{
+    display: none;
+}
+.our_lates_article_row{
+    display: block;
+    width: 90%;
+    height: 100%;
+}
+.our_lates_article_row_col a img{
+    height: 100%;
+}
+.our_lates_article_row_col a h4{
+    margin: 0 auto 15px;
+    width: 100%;
+    text-align: center;
+}
+.our_lates_article_row_col a p{
+    margin: 0 auto 15px;
+    width: 100%;
+    text-align: center;
+}
+.our_lates_article_row_col a span{
+    margin: 0 auto 15px;
+    width: 100%;
+    text-align: center;
+}
+.our_lates_article_btn{
+    width: 130px;
+    height: 50px;
+    margin: 0 auto 50px;
+}
+.our_lates_article_btn button{
+    width: 130px;
+    height: 50px;
+    font-size: 15px;
+    line-height: 50px;
+}
+.footer_background_reight{
+    display: none;
+}
+
+.footer_row{
+    display: block;
+}
+.footer_row_col{
+    width: 80%;
+    margin: 0 auto 45px;
+}
+.footer_row_col_logo{
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+.footer_row_col p{
+    font-size: 13px;
+    line-height: 20px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+.footer_row_col span{
+    font-size: 13px;
+}
+.company{
+    width: 80%;
+    margin: 0 auto 50px;
+}
+.company h6{
+    margin: 0;
+    height: 30px;
+}
+.region{
+    width: 80%;
+    margin: 0 auto 50px;
+}
+.region h6{
+    margin: 0;
+    height: 30px;
+}
+
+.help{
+    width: 80%;
+    margin: 0 auto;
+}
+.help h6{
+    margin: 0;
+    height: 30px;
+}
+.menu_footer{
+    margin: 20px 0;
+}
+.menu_footer li a{
+    font-size: 13px;
+}
+.footer_background_left{
+    display: none;
 }
 }
