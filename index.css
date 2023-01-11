@@ -111,19 +111,15 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 30px;
-    /* justify-content: space-between;
-    margin-top: -70px; */
 }
 
 .header_text {
-    /* margin-right: 109px; */
     margin-top: 63px;
 }
 
 .header_text h2 {
     font-family: 'Muli';
     width: 100%;
-    /* height: 112px; */
     color: #000000;
     font-size: 48px;
     font-weight: 700;
@@ -171,13 +167,10 @@ body {
 .our_services {
     width: 80%;
     margin: 0 auto 10%;
-    /* margin-top: 5%;
-    margin-bottom: 220px; */
 }
 
 .our_services_text {
     width: 100%;
-    /* height: 177px; */
     margin: 100px auto;
 }
 
@@ -201,7 +194,6 @@ body {
 
 .our_services_text p {
     width: 100%;
-    /* height: 60px; */
     margin: 33px auto 0;
     font-family: 'Muli';
     font-size: 18px;
@@ -220,7 +212,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 30px;
-    /* margin-top: 80px; */
     margin-bottom: 37px;
 }
 
@@ -259,7 +250,6 @@ body {
 .search_doctor p {
     font-family: 'Muli';
     font-size: 14px;
-    /* line-height: 28px; */
     color: #7d7987;
     margin-left: 39px;
     margin-right: 20px;
@@ -292,7 +282,6 @@ body {
 .online_pharmacy p {
     font-family: 'Muli';
     font-size: 14px;
-    /* line-height: 28px; */
     color: #7d7987;
     margin-left: 39px;
     margin-right: 20px;
@@ -325,7 +314,6 @@ body {
 .consultation p {
     font-family: 'Muli';
     font-size: 14px;
-    /* line-height: 28px; */
     color: #7d7987;
     margin-left: 39px;
     margin-right: 20px;
@@ -364,7 +352,6 @@ body {
 .detail_info p {
     font-family: 'Muli';
     font-size: 14px;
-    /* line-height: 28px; */
     color: #7d7987;
     margin-left: 39px;
     margin-right: 20px;
@@ -397,7 +384,6 @@ body {
 .emergency_care p {
     font-family: 'Muli';
     font-size: 14px;
-    /* line-height: 28px; */
     color: #7d7987;
     margin-left: 39px;
     margin-right: 20px;
@@ -430,7 +416,6 @@ body {
 .tracking p {
     font-family: 'Muli';
     font-size: 14px;
-    /* line-height: 28px; */
     color: #7d7987;
     margin-left: 39px;
     margin-right: 20px;
@@ -469,7 +454,6 @@ body {
 /*==========leading_healthcare_providers==========*/
 .leading_healthcare_providers {
     width: 80%;
-    /* height: 477px; */
     margin: 30px auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -480,7 +464,6 @@ body {
 .leading_healthcare_providers_img {
     width: 100%;
     height: 477px;
-    /* margin-right: 142px; */
 }
 
 .leading_healthcare_providers_img img {
@@ -495,12 +478,9 @@ body {
 }
 
 .leading_healthcare_providers_text h3 {
-    /* width: 470px; */
-    /* height: 112px; */
     color: #000000;
     font-family: 'Muli';
     font-size: 30px;
-    /* line-height: 56px; */
     font-weight: 700;
     margin-bottom: 26px;
 }
@@ -513,8 +493,6 @@ body {
 }
 
 .leading_healthcare_providers_text p {
-    /* width: 450px; */
-    /* height: 120px; */
     font-family: 'Muli';
     font-size: 16px;
     line-height: 30px;
@@ -550,7 +528,6 @@ body {
 
 .download_our_mobile_apps {
     width: 80%;
-    /* height: 477px; */
     margin: 0 auto 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -558,7 +535,6 @@ body {
 }
 
 .download_our_mobile_apps_img {
-    /* width: 665px; */
     height: 434px;
     margin-left: 71px;
 }
@@ -569,18 +545,14 @@ body {
 }
 
 .download_our_mobile_apps_text {
-    /* width: 420px; */
     margin-left: 15%;
     margin-top: 50px;
 }
 
 .download_our_mobile_apps_text h3 {
-    /* width: 254px; */
-    /* height: 96px; */
     color: #000000;
     font-family: 'Muli';
     font-size: 30px;
-    /* line-height: 56px; */
     font-weight: 700;
     margin-bottom: 26px;
 }
@@ -593,11 +565,8 @@ body {
 }
 
 .download_our_mobile_apps_text p {
-    /* width: 420px; */
-    /* height: 120px; */
     font-family: 'Muli';
     font-size: 16px;
-    /* line-height: 30px; */
     color: #7d7987;
     margin-bottom: 40px;
 }
@@ -634,7 +603,6 @@ body {
 }
 
 .testimonials_groups {
-    /* width: 1219px; */
     height: 430px;
     margin: 0 auto;
     background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
@@ -685,17 +653,14 @@ body {
 
 .testimonials_groups_groups_text h6 {
     width: 183px;
-    /* height: 32px; */
     color: #ffffff;
     font-family: 'Muli';
     font-size: 20px;
-    /* line-height: 32px; */
     font-weight: 700;
     margin: 0;
 }
 
 .testimonials_groups_groups_text p {
-    /* width: 119px; */
     height: 32px;
     color: rgba(255, 255, 255, 0.85);
     font-family: 'Muli';
@@ -705,10 +670,7 @@ body {
 }
 
 .testimonials_groups_groups_texts {
-    /* width: 400px; */
-    /* height: 120px; */
     font-size: 17px;
-    /* line-height: 30px; */
     color: rgba(255, 255, 255, 0.9);
 }
 
@@ -735,7 +697,6 @@ body {
 .our_lates_article {
     width: 80%;
     margin: 0 auto;
-    /* margin-bottom: 201px; */
 }
 
 .our_lates_article_element{
@@ -777,7 +738,6 @@ body {
 }
 
 .our_lates_article_row_col {
-    /* width: 350px; */
     background-color: #FFFFFF;
     box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
     border-radius: 20px;
@@ -785,7 +745,6 @@ body {
 
 .our_lates_article_row_col a {
     font-family: 'Muli';
-    /* width: 100%; */
     text-decoration: none;
 }
 
@@ -797,18 +756,14 @@ body {
 
 .our_lates_article_row_col a h4 {
     width: 200px;
-    /* height: 64px; */
     margin: 0 20px 12px;
     font-family: 'Muli';
     font-size: 20px;
     font-weight: 700;
-    /* line-height: 32px; */
     color: #000000;
 }
 
 .our_lates_article_row_col a p {
-    /* width: 266px; */
-    /* height: 84px; */
     font-family: 'Muli';
     font-size: 15px;
     font-weight: 300;
@@ -818,7 +773,6 @@ body {
 
 .our_lates_article_row_col a span {
     display: block;
-    /* width: 266px; */
     height: 28px;
     margin: 0 20px 35px;
     color: #4089ED;
@@ -998,8 +952,11 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+.container-fluid{
+    overflow: hidden;
+}
 .header{
-    width: 90%;
+    width: 80%;
     margin: 30px auto 0;
     height: 600px;
 }
@@ -1012,24 +969,37 @@ body {
 .logo span{
     font-size: 18px;
 }
-.top_nav ul li{
-    width: 100%;
-}
 .top_nav ul li a{
-    font-size: 15px;
+    font-size: 13px;
     margin-right: 20px;
+}
+.header_text{
+    margin-top: 0;
 }
 .header_text h2{
     font-size: 30px;
     height: 70px;
     line-height: 30px;
+    margin: 0 0 10px;
 }
 .header_text p{
+    height: 170px;
+    margin: 0;
     line-height: 30px;
 }
 .header_banner{
     align-items: center;
-    height: 400px;
+}
+
+.consult_btn button {
+    width: 150px;
+    height: 56px;
+    border-radius: 56px;
+    border: 1px solid #458ff6;
+    background: #458ff6;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 55px;
 }
 .illustration{
     height: 400px;
@@ -1053,6 +1023,17 @@ body {
 .our_services_services_row{
     height: 260px;
     margin-bottom: 25px;
+}
+.our_services_btn button {
+    width: 150px;
+    height: 56px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #458ff6;
+    border-radius: 54px;
+    border: 1px solid #458ff6;
+    background-color: #ffffff;
 }
 .search_doctor img{
     width: 50px;
@@ -1137,7 +1118,7 @@ body {
     margin: 5px 10px;
 }
 .leading_healthcare_providers{
-    height: 500px;
+    height: 480px;
     align-items: center;
     margin-top: 0;
     margin-bottom: 0;
@@ -1152,6 +1133,10 @@ body {
     font-size: 16px;
     line-height: 25px;
 }
+.leading_healthcare_providers_text_btn button{
+    width: 150px;
+    font-size: 15px;
+}
 .download_our_mobile_apps_background{
     margin-bottom: 0;
     height: 50px;
@@ -1159,6 +1144,9 @@ body {
 .download_our_mobile_apps{
     align-items: center;
     height: 500px;
+}
+.download_our_mobile_apps_text{
+    margin: 0 10px 0 40px;
 }
 .download_our_mobile_apps_text h3{
     font-size: 30px;
@@ -1170,6 +1158,18 @@ body {
 .download_our_mobile_apps_img{
     width: 100%;
     margin: 0;
+}
+.download_our_mobile_apps_btn button {
+    width: 150px;
+    height: 56px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #458ff6;
+    margin-bottom: -30px;
+    border-radius: 54px;
+    border: 1px solid #458ff6;
+    background-color: #ffffff;
 }
 .testimonials{
     height: 430px;
@@ -1211,5 +1211,99 @@ body {
     align-items: center;
     justify-content: center;
     margin: 24px 0 0 0;
+}
+.our_lates_article_text{
+    margin: 0 auto 40px;
+}
+.our_lates_article_text h3{
+    font-size: 25px;
+    margin: 0;
+}
+.our_lates_article_row{
+    height: 450px;
+}
+.our_lates_article_row_col{
+    width: 100%;
+}
+.our_lates_article_row_col a img{
+    width: 100%;
+    height: 150px;
+}
+.our_lates_article_row a h4{
+    width: 100%;
+    font-size: 18px;
+    line-height: 25px;
+}
+.our_lates_article_row a p{
+    font-size: 15px;
+    line-height: 22px;
+}
+.our_lates_article_row a span{
+    font-size: 14px;
+}
+.our_lates_article_btn {
+    width: 150px;
+    height: 56px;
+    margin: 5% auto 0;
+}
+.our_lates_article_btn button {
+    width: 150px;
+    height: 56px;
+    border-radius: 55px;
+    border: 1.4px solid #458ff6;
+    background-color: #ffffff;
+    font-family: 'Muli';
+    color: #458ff6;
+    font-size: 15px;
+    line-height: 50px;
+}
+
+.footer_row_col{
+    margin: 60px 20px 30px 20px;
+}
+.footer_row_col p{
+    height: 100px;
+    font-size: 16px;
+    margin: 0;
+}
+.footer_row_col_logo{
+    margin-bottom: 15px;
+}
+.footer_row_col span{
+    font-size: 14px;
+    margin-right: 20px;
+}
+.company {
+    margin: 50px 0;
+}
+.company h6 {
+    width: 72px;
+    height: 50px;
+    font-size: 15px;
+    margin: 3px;
+}
+.region {
+    margin: 50px 0;
+}
+.region h6 {
+    width: 72px;
+    height: 50px;
+    font-size: 15px;
+    margin: 3px;
+}
+.help {
+    margin: 50px 0;
+}
+.help h6 {
+    width: 72px;
+    height: 50px;
+    font-size: 15px;
+    margin: 3px;
+}
+.menu_footer{
+    margin: 3px;
+}
+.menu_footer li a{
+    font-size: 14px;
 }
 }
